@@ -1,0 +1,29 @@
+.mainbutton {
+    background-color:rgba(0, 255, 179, 0.938);
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.body {
+    background-color: lightgrey;
+}
+
+.middletitle {
+    font-size: xx-large;
+    text-align: left;
+    background-color: white;
+    color:rgba(0, 255, 179, 0.938);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav {
+    margin-bottom: 0px;
+}
