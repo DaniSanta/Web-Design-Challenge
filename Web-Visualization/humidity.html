@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-sourcecode">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand mainbutton" href="landing.html">Lattitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsourcecode" aria-controls="navbarsourcecode" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-7"></div>
+            <div class="collapse navbar-collapse" id="navbarsourcecode">
+              <ul class="navbar-nav mr-auto">
+                <li class="navtabs-item dropdown option menu">
+                  <a class="navtabs-link dropdown" id="navtabsdropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">plot</a>                                     
+                  <div class="dropdown-menu-show" aria-labelledby="navtabsdropdown">
+                    <a class="dropdown-item" href="temp.html">Lattitude vs. Max Temp</a>
+                    <a class="dropdown-item" href="humidity.html">Lattitude vs. Max Humidity</a>
+                    <a class="dropdown-item" href="clouds.html">Lattitude vs. Cloudiness</a>
+                    <a class="dropdown-item" href="wind.html">Lattitude vs. Wind Speed</a>
+                  </div>
+                </li>
+                <li class="navtabs-button">
+                  <a class="navtabs-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="navtabs-button">
+                    <a class="navtabs-link" href="data.html">Data</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-lg-12 body">
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 middletitle">Humidity</div>
+            <div class="col-lg-1 d-none d-lg-block body"></div>
+            <div class="col-lg-2 middletitle d-none d-lg-block">Vizualizations</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5"></div>           
+            <div class="col-lg-1 body"></div>
+       </div>
+        <div class="row">
+            <a href="temp.html" class="col-lg-3 col-sm-12"><img width=650 src="../assets/Fig2.png"></a>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1 body"></div>
+            <a href="temp.html" class="col-lg-2 d-none d-lg-block"><img width=250 src="../assets/Fig1.png"></a>
+            <a href="humidity.html" class="col-lg-2 d-none d-lg-block"><img width=250 src="../assets/Fig2.png"></a>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 col-sm-12">The lack of datapoints in this graph does not allows us to clearly see a relationship between latitude and humidity.</div>
+            <div class="col-lg-1 d-none d-lg-block body"></div>
+            <a href="temp.html" class="col-2 d-none d-lg-block"><img width=250 src="../assets/Fig1.png"></a>
+            <a href="humidity.html" class="col-2 d-none d-lg-block"><img width=250 src="../assets/Fig2.png"></a>
+        </div>
+        <div class="row">
+            <div class="col-12 body"><br></div>
+        </div>
+
+
+        <div class="col-6 middletitle d-lg-none">Vizualizations</div>
+        <div class="row">
+            <a href="temp.html" class="col-6 d-lg-none"><img width=250 src="../assets/Fig1.png"></a>
+            <a href="humidity.html" class="col-6 d-lg-none"><img width=250 src="../assets/Fig2.png"></a>
+        </div>
+        <div class="row">
+            <a href="clouds.html" class="col-6 d-lg-none"><img width=250 src="../assets/Fig3.png"></a>
+            <a href="wind.html" class="col-6 d-lg-none"><img width=250 src="../assets/Fig4.png"></a>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+
+
+</body>
+
+
+</html>

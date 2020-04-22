@@ -1,5 +1,5 @@
 .mainbutton {
-    background-color:rgba(0, 255, 179, 0.938);
+    background-color:rgb(9, 146, 105);
     font-size: x-large;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -9,19 +9,19 @@
 }
 
 .body {
-    background-color: lightgrey;
+    background-color: grey;
 }
 
 .middletitle {
     font-size: xx-large;
     text-align: left;
-    background-color: white;
-    color:rgba(0, 255, 179, 0.938);
+    background-color:whitesmoke;
+    color:rgb(9, 146, 105);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: xx-large;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .nav {
